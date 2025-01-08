@@ -1,19 +1,19 @@
-Обязательно к прочтению [Disclamer](readme/Disclamer)
+Обязательно к прочтению [Disclamer](readme/Disclamer.md)
 
 ##RGGPLUSPLUS
 ##[introduction](readme/introduction.md)
 
 
-[discription](readme/discription)
-[struct_project](readme/struct_project)
+[discription](readme/discription.md)
+[struct_project](readme/struct_project.md)
 
 #struct 
-	[transport](transport)
-	[api_client](api_client)
-	[api_server](api_server)
-	[game_engine](game_engine)
-	[Interface](Interface)
+	[transport](transport.md)
+	[api_client](api_client.md)
+	[api_server](api_server.md)
+	[game_engine](game_engine.md)
+	[Interface](Interface.md)
 #md
-	[game_rules](game_rules)
+	[game_rules](game_rules.md)
 	[[rgg-table Kanban-доска]]
 	[[schema_ver2.canvas|schema_ver2]]
