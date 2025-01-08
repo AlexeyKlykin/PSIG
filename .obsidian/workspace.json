@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme/Структура.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Структура"
+              "title": "README"
             }
           }
         ]
@@ -165,20 +165,20 @@
   },
   "active": "faa4fc9ff5140a62",
   "lastOpenFiles": [
-    "README.md",
-    "schema_ver2.canvas",
     "transport.md",
+    "README.md",
+    "api_client.md",
+    "api_server.md",
+    "readme/Disclamer.md",
+    "readme/struct_project.md",
+    "readme/discription.md",
+    "readme/introduction.md",
+    "schema_ver2.canvas",
     "rgg-table Kanban-доска.md",
     "game_rules.md",
-    "Api client.md",
     "game_engine.md",
     "Interface.md",
-    "Api server.md",
     "Transport 1.md",
-    "readme/Структура.md",
-    "readme/Описание.md",
-    "readme/Вступление.md",
-    "readme/Disclamer.md",
     "schema.canvas",
     "readme"
   ]

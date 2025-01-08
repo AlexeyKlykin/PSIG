@@ -5,8 +5,8 @@
 		{"id":"601982e26038ed8b","type":"text","text":"#redis","x":440,"y":80,"width":250,"height":60},
 		{"id":"f46e4132e4e7e465","type":"text","text":"#maps_game ","x":-760,"y":-160,"width":250,"height":60},
 		{"id":"ec216807e4cbfcc9","type":"file","file":"Interface.md","x":-480,"y":-40,"width":250,"height":60},
-		{"id":"33aff114b72295a9","type":"file","file":"Api server.md","x":-180,"y":-160,"width":250,"height":60},
-		{"id":"58a15ca270feb3fd","x":-180,"y":160,"width":250,"height":60,"type":"file","file":"Api client.md"},
+		{"id":"33aff114b72295a9","type":"file","file":"api_server.md","x":-180,"y":-160,"width":250,"height":60},
+		{"id":"58a15ca270feb3fd","x":-180,"y":160,"width":250,"height":60,"type":"file","file":"api_client.md"},
 		{"id":"139dc9653ed13624","type":"file","file":"game_engine.md","x":-140,"y":-55,"width":270,"height":90},
 		{"id":"eb595ed4a4894ea2","type":"file","file":"transport.md","x":-140,"y":35,"width":270,"height":60}
 	],
