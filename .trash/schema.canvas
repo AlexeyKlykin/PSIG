@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"457752eebf32db14","type":"text","text":"Game Engine\n\n1. game_rules\n2. interface_game_rules\n3. the point to enter_to_api\n4. access_denied","x":-220,"y":-220,"width":310,"height":180,"color":"2"},
+		{"id":"2d80f08954188a48","type":"text","text":"Map","x":-410,"y":80,"width":250,"height":60},
+		{"id":"f77806fa2f188f4c","type":"text","text":"Players","x":60,"y":80,"width":250,"height":60},
+		{"id":"f84e4b9be7eff187","type":"text","text":"API:GE:USER","x":-160,"y":20,"width":250,"height":60},
+		{"id":"4a4247d033282a54","type":"text","text":"tools_to_control","x":-160,"y":240,"width":250,"height":60},
+		{"id":"7cc413a3d13d8954","type":"text","text":"DB:Slow","x":40,"y":-440,"width":250,"height":60},
+		{"id":"5642d8ef1dc63907","type":"text","text":"DB:Fast\n","x":-315,"y":-440,"width":250,"height":60},
+		{"id":"18b2b0767584cc37","type":"text","text":"tools_to_control\n1. control\n2. tools\n3. interface","x":-160,"y":-580,"width":250,"height":140},
+		{"id":"bb33ca09393b5784","type":"text","text":"API:DB:GE","x":-160,"y":-320,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"1e49befde6da0d07","fromNode":"457752eebf32db14","fromSide":"bottom","toNode":"bb33ca09393b5784","toSide":"top"},
+		{"id":"d8faa3b3bb613917","fromNode":"bb33ca09393b5784","fromSide":"top","toNode":"457752eebf32db14","toSide":"bottom"},
+		{"id":"d7bbc1f2c86ff475","fromNode":"bb33ca09393b5784","fromSide":"top","toNode":"7cc413a3d13d8954","toSide":"bottom"},
+		{"id":"d0a56248b6bf4436","fromNode":"bb33ca09393b5784","fromSide":"top","toNode":"5642d8ef1dc63907","toSide":"bottom"},
+		{"id":"928bd87238a81f20","fromNode":"f84e4b9be7eff187","fromSide":"bottom","toNode":"f77806fa2f188f4c","toSide":"left"},
+		{"id":"d2aa3ee88cf28666","fromNode":"f84e4b9be7eff187","fromSide":"bottom","toNode":"2d80f08954188a48","toSide":"right"},
+		{"id":"fe167b7e51b0857f","fromNode":"f84e4b9be7eff187","fromSide":"top","toNode":"457752eebf32db14","toSide":"right"},
+		{"id":"c82c92bc5497cee6","fromNode":"457752eebf32db14","fromSide":"left","toNode":"f84e4b9be7eff187","toSide":"left"},
+		{"id":"c2cac62d2699079d","fromNode":"5642d8ef1dc63907","fromSide":"top","toNode":"18b2b0767584cc37","toSide":"left"},
+		{"id":"bf07a4e6ac992938","fromNode":"7cc413a3d13d8954","fromSide":"top","toNode":"18b2b0767584cc37","toSide":"right"},
+		{"id":"b671fdb2c37fc1c6","fromNode":"f77806fa2f188f4c","fromSide":"bottom","toNode":"4a4247d033282a54","toSide":"right"},
+		{"id":"0bcc6d0223a8f765","fromNode":"2d80f08954188a48","fromSide":"bottom","toNode":"4a4247d033282a54","toSide":"left"}
+	]
+}

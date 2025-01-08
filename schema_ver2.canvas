@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"dc0c9487adae3ffb","x":260,"y":-40,"width":250,"height":60,"type":"file","file":"game_rules.md"},
+		{"id":"2d82a699e59a3c26","type":"text","text":"#postgres","x":440,"y":-160,"width":250,"height":60},
+		{"id":"601982e26038ed8b","type":"text","text":"#redis","x":440,"y":80,"width":250,"height":60},
+		{"id":"f46e4132e4e7e465","type":"text","text":"#maps_game ","x":-760,"y":-160,"width":250,"height":60},
+		{"id":"ec216807e4cbfcc9","type":"file","file":"Interface.md","x":-480,"y":-40,"width":250,"height":60},
+		{"id":"33aff114b72295a9","type":"file","file":"Api server.md","x":-180,"y":-160,"width":250,"height":60},
+		{"id":"58a15ca270feb3fd","x":-180,"y":160,"width":250,"height":60,"type":"file","file":"Api client.md"},
+		{"id":"139dc9653ed13624","type":"file","file":"game_engine.md","x":-140,"y":-55,"width":270,"height":90},
+		{"id":"eb595ed4a4894ea2","type":"file","file":"transport.md","x":-140,"y":35,"width":270,"height":60}
+	],
+	"edges":[
+		{"id":"4f93bf0032c0d8a8","fromNode":"139dc9653ed13624","fromSide":"left","toNode":"ec216807e4cbfcc9","toSide":"right"},
+		{"id":"fb206abf349779a4","fromNode":"58a15ca270feb3fd","fromSide":"left","toNode":"ec216807e4cbfcc9","toSide":"bottom"},
+		{"id":"41f1a1025caa9378","fromNode":"33aff114b72295a9","fromSide":"left","toNode":"ec216807e4cbfcc9","toSide":"top"},
+		{"id":"fc47fc4054d0eab1","fromNode":"139dc9653ed13624","fromSide":"right","toNode":"dc0c9487adae3ffb","toSide":"left"},
+		{"id":"0164b606c4a3a8b7","fromNode":"dc0c9487adae3ffb","fromSide":"left","toNode":"139dc9653ed13624","toSide":"right"},
+		{"id":"21ae9aca9624be83","fromNode":"dc0c9487adae3ffb","fromSide":"bottom","toNode":"601982e26038ed8b","toSide":"left"},
+		{"id":"ddf3a45dba0b97a8","fromNode":"2d82a699e59a3c26","fromSide":"bottom","toNode":"601982e26038ed8b","toSide":"top"},
+		{"id":"be9e9629a25181c5","fromNode":"601982e26038ed8b","fromSide":"left","toNode":"dc0c9487adae3ffb","toSide":"bottom"},
+		{"id":"e0d603d266d4ebdd","fromNode":"601982e26038ed8b","fromSide":"top","toNode":"2d82a699e59a3c26","toSide":"bottom"},
+		{"id":"3c694bf116b2c4a4","fromNode":"ec216807e4cbfcc9","fromSide":"left","toNode":"f46e4132e4e7e465","toSide":"bottom"},
+		{"id":"628720f76ec2c8ed","fromNode":"ec216807e4cbfcc9","fromSide":"right","toNode":"139dc9653ed13624","toSide":"left"}
+	]
+}
